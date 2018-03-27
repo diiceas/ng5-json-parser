@@ -9,8 +9,6 @@ import { HttpModule } from '@angular/http';
 
 import { RouterModule, Routes } from '@angular/router';
 import { IndustriesComponent } from './components/industries/industries.component';
-import { IsMobileService } from './services/is-mobile.service';
-import { DeviceDetectorModule } from 'ngx-device-detector';
 
 let routes: Routes = [
   {
@@ -33,11 +31,9 @@ let routes: Routes = [
     BrowserModule,
     RouterModule.forRoot(routes),
     HttpModule,
-    DeviceDetectorModule.forRoot()
   ],
   providers: [
     JsonService,
-    IsMobileService
   ],
   bootstrap: [AppComponent]
 })
