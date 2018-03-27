@@ -1,0 +1,17 @@
+.logo img {
+  width: 70px;
+}
+
+.navbar-toggler {
+  width: 66px;
+  height: 37px;
+  margin-top: 13px !important;
+  padding: 0px;
+  border-color: #808080;
+  right: 1px;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  width: 24px;
+  background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='#808080' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/></svg>");
+}

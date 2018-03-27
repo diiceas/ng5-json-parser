@@ -1,0 +1,16 @@
+<table class="investments">
+  <tr>
+    <th>#</th>
+    <th>Company</th>
+    <th>Date</th>
+    <th>Amount</th>
+    <th>Round</th>
+  </tr>
+  <tr *ngFor="let investment of investments; let i = index">
+    <td>{{i + 1}}</td>
+    <td>{{investment.company}}</td>
+    <td>{{investment.date}}</td>
+    <td>{{investment.amount}}</td>
+    <td>{{investment.round}}</td>
+  </tr>
+</table>
