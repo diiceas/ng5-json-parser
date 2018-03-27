@@ -1,0 +1,1959 @@
+{
+	"sectors": [{
+		"idSector": 1,
+		"sector": "Agriculture",
+		"industries": [{
+			"idIndustry": 5,
+			"industry": "Agricultural products & related activities",
+			"subindustries": []
+		}, {
+			"idIndustry": 10,
+			"industry": "Animal Production",
+			"subindustries": []
+		}, {
+			"idIndustry": 49,
+			"industry": "Crop Production",
+			"subindustries": []
+		}]
+	}, {
+		"idSector": 2,
+		"sector": "Automotive & Transportation",
+		"industries": [{
+			"idIndustry": 6,
+			"industry": "Air",
+			"subindustries": []
+		}, {
+			"idIndustry": 17,
+			"industry": "Automobile Manufacturing",
+			"subindustries": []
+		}, {
+			"idIndustry": 18,
+			"industry": "Automobile Parts",
+			"subindustries": []
+		}, {
+			"idIndustry": 141,
+			"industry": "Other Transportation",
+			"subindustries": [{
+				"idSubindustry": 54,
+				"subindustry": "Commercial Ships"
+			}, {
+				"idSubindustry": 177,
+				"subindustry": "Motorcycle & Small Engine Vehicles"
+			}, {
+				"idSubindustry": 235,
+				"subindustry": "Recreational Vehicles"
+			}]
+		}, {
+			"idIndustry": 191,
+			"industry": "Train",
+			"subindustries": []
+		}, {
+			"idIndustry": 192,
+			"industry": "Transportation Services",
+			"subindustries": [{
+				"idSubindustry": 13,
+				"subindustry": "Airline related services"
+			}, {
+				"idSubindustry": 103,
+				"subindustry": "Freight forwarding & courier services"
+			}, {
+				"idSubindustry": 141,
+				"subindustry": "Infrastructure Management Services"
+			}, {
+				"idSubindustry": 155,
+				"subindustry": "Logistics services"
+			}, {
+				"idSubindustry": 163,
+				"subindustry": "Marine Shipping & Management Services"
+			}, {
+				"idSubindustry": 283,
+				"subindustry": "Supply Chain Management Services"
+			}, {
+				"idSubindustry": 288,
+				"subindustry": "Taxi, Limousine & Vehicle Rental Services"
+			}, {
+				"idSubindustry": 302,
+				"subindustry": "Trucking related services"
+			}]
+		}, {
+			"idIndustry": 194,
+			"industry": "Trucking",
+			"subindustries": []
+		}]
+	}, {
+		"idSector": 3,
+		"sector": "Business Products & Services",
+		"industries": [{
+			"idIndustry": 3,
+			"industry": "Advertising, Marketing & PR",
+			"subindustries": []
+		}, {
+			"idIndustry": 34,
+			"industry": "Commercial Printing",
+			"subindustries": []
+		}, {
+			"idIndustry": 43,
+			"industry": "Consulting & Outsourcing",
+			"subindustries": [{
+				"idSubindustry": 4,
+				"subindustry": "Accounting & Finance Services"
+			}, {
+				"idSubindustry": 37,
+				"subindustry": "Business Process Outsourcing (BPO)"
+			}, {
+				"idSubindustry": 148,
+				"subindustry": "Knowledge Process Outsourcing (KPO)"
+			}, {
+				"idSubindustry": 160,
+				"subindustry": "Management & Strategy Consulting"
+			}, {
+				"idSubindustry": 227,
+				"subindustry": "Product Development & Design"
+			}, {
+				"idSubindustry": 229,
+				"subindustry": "Project Management"
+			}, {
+				"idSubindustry": 233,
+				"subindustry": "QA & Testing"
+			}, {
+				"idSubindustry": 332,
+				"subindustry": "Research, Engineering & Technical"
+			}, {
+				"idSubindustry": 333,
+				"subindustry": "Market, Industry & Competitive Research"
+			}, {
+				"idSubindustry": 334,
+				"subindustry": "Business Performance Management"
+			}, {
+				"idSubindustry": 335,
+				"subindustry": "Supply Chain, Logistics & Procurement"
+			}]
+		}, {
+			"idIndustry": 65,
+			"industry": "Education & Training (business)",
+			"subindustries": []
+		}, {
+			"idIndustry": 100,
+			"industry": "HR & Staffing",
+			"subindustries": []
+		}, {
+			"idIndustry": 102,
+			"industry": "Information & Records Management",
+			"subindustries": []
+		}, {
+			"idIndustry": 111,
+			"industry": "Legal Services",
+			"subindustries": []
+		}, {
+			"idIndustry": 133,
+			"industry": "Office furniture & equipment",
+			"subindustries": []
+		}, {
+			"idIndustry": 135,
+			"industry": "Office Supplies",
+			"subindustries": []
+		}, {
+			"idIndustry": 197,
+			"industry": "Wholesale",
+			"subindustries": []
+		}, {
+			"idIndustry": 201,
+			"industry": "Packaging",
+			"subindustries": []
+		}, {
+			"idIndustry": 202,
+			"industry": "Electronic Equipment & Components",
+			"subindustries": []
+		}, {
+			"idIndustry": 203,
+			"industry": "Facilities",
+			"subindustries": []
+		}, {
+			"idIndustry": 204,
+			"industry": "Information Services",
+			"subindustries": []
+		}]
+	}, {
+		"idSector": 4,
+		"sector": "Computer Hardware & Services",
+		"industries": [{
+			"idIndustry": 37,
+			"industry": "Computer & Technology Leasing Services",
+			"subindustries": []
+		}, {
+			"idIndustry": 38,
+			"industry": "Computer Networking Equipment",
+			"subindustries": [{
+				"idSubindustry": 186,
+				"subindustry": "Network Access & Communication Devices"
+			}, {
+				"idSubindustry": 187,
+				"subindustry": "Network Security Hardware"
+			}, {
+				"idSubindustry": 244,
+				"subindustry": "Routing & Switching Equipment"
+			}, {
+				"idSubindustry": 280,
+				"subindustry": "Storage Networking Equipment"
+			}, {
+				"idSubindustry": 316,
+				"subindustry": "Wireless Networking"
+			}]
+		}, {
+			"idIndustry": 39,
+			"industry": "Computer Product Distribution & Support Services",
+			"subindustries": []
+		}, {
+			"idIndustry": 40,
+			"industry": "Computer Storage & Peripherals",
+			"subindustries": [{
+				"idSubindustry": 60,
+				"subindustry": "Computer Displays & Projectors"
+			}, {
+				"idSubindustry": 61,
+				"subindustry": "Computer Input Devices & Speakers"
+			}, {
+				"idSubindustry": 215,
+				"subindustry": "Personal Storage Drives"
+			}, {
+				"idSubindustry": 225,
+				"subindustry": "Printing & Imaging Equipment"
+			}]
+		}, {
+			"idIndustry": 93,
+			"industry": "Handheld Computers & Accessories",
+			"subindustries": []
+		}, {
+			"idIndustry": 108,
+			"industry": "IT Services",
+			"subindustries": [{
+				"idSubindustry": 74,
+				"subindustry": "Data Storage & Security"
+			}, {
+				"idSubindustry": 140,
+				"subindustry": "Infrastructure & Hosting"
+			}, {
+				"idSubindustry": 145,
+				"subindustry": "IT Management & Helpdesk"
+			}, {
+				"idSubindustry": 306,
+				"subindustry": "Virtualization"
+			}, {
+				"idSubindustry": 331,
+				"subindustry": "Web Design & Development"
+			}, {
+				"idSubindustry": 339,
+				"subindustry": "Networking"
+			}, {
+				"idSubindustry": 340,
+				"subindustry": "IT Solutions & Software Development"
+			}]
+		}, {
+			"idIndustry": 144,
+			"industry": "Personal Computers & Notebooks",
+			"subindustries": []
+		}, {
+			"idIndustry": 169,
+			"industry": "Servers & Mainframes",
+			"subindustries": []
+		}, {
+			"idIndustry": 173,
+			"industry": "Specialty Computer Hardware",
+			"subindustries": [{
+				"idSubindustry": 23,
+				"subindustry": "ATMs"
+			}, {
+				"idSubindustry": 173,
+				"subindustry": "Military & Industrial Computer Systems"
+			}, {
+				"idSubindustry": 222,
+				"subindustry": "Point of Sales & Retail Computer Systems"
+			}]
+		}, {
+			"idIndustry": 179,
+			"industry": "Supercomputers",
+			"subindustries": []
+		}, {
+			"idIndustry": 199,
+			"industry": "Workstations & Thin Clients",
+			"subindustries": []
+		}, {
+			"idIndustry": 209,
+			"industry": "Gaming",
+			"subindustries": []
+		}]
+	}, {
+		"idSector": 5,
+		"sector": "Consumer Products & Services",
+		"industries": [{
+			"idIndustry": 12,
+			"industry": "Appliances",
+			"subindustries": []
+		}, {
+			"idIndustry": 19,
+			"industry": "Automotive Services",
+			"subindustries": []
+		}, {
+			"idIndustry": 20,
+			"industry": "Baby Supplies",
+			"subindustries": []
+		}, {
+			"idIndustry": 28,
+			"industry": "Car & Truck Rental",
+			"subindustries": []
+		}, {
+			"idIndustry": 31,
+			"industry": "Clothing & Accessories",
+			"subindustries": [{
+				"idSubindustry": 1,
+				"subindustry": "Accessories"
+			}, {
+				"idSubindustry": 43,
+				"subindustry": "Children's Clothing"
+			}, {
+				"idSubindustry": 101,
+				"subindustry": "Footwear"
+			}, {
+				"idSubindustry": 168,
+				"subindustry": "Men's Clothing"
+			}, {
+				"idSubindustry": 320,
+				"subindustry": "Women's Clothing"
+			}]
+		}, {
+			"idIndustry": 44,
+			"industry": "Consumer Electronics",
+			"subindustries": []
+		}, {
+			"idIndustry": 66,
+			"industry": "Education & Training (non-internet/mobile)",
+			"subindustries": [{
+				"idSubindustry": 42,
+				"subindustry": "Childcare Services and Children's Schooling"
+			}, {
+				"idSubindustry": 47,
+				"subindustry": "Colleges & Universities"
+			}, {
+				"idSubindustry": 297,
+				"subindustry": "Training Services"
+			}]
+		}, {
+			"idIndustry": 95,
+			"industry": "Health & Wellness (non-internet/mobile)",
+			"subindustries": [{
+				"idSubindustry": 276,
+				"subindustry": "Sporting Goods & Equipment"
+			}, {
+				"idSubindustry": 313,
+				"subindustry": "Weight & Health Management"
+			}]
+		}, {
+			"idIndustry": 99,
+			"industry": "Household",
+			"subindustries": [{
+				"idSubindustry": 44,
+				"subindustry": "Cleaning Products"
+			}, {
+				"idSubindustry": 104,
+				"subindustry": "Furnishings & Decoration"
+			}, {
+				"idSubindustry": 129,
+				"subindustry": "Housewares"
+			}, {
+				"idSubindustry": 294,
+				"subindustry": "Tools, Lawn & Garden"
+			}]
+		}, {
+			"idIndustry": 109,
+			"industry": "Jewelry",
+			"subindustries": []
+		}, {
+			"idIndustry": 128,
+			"industry": "Music Instruments",
+			"subindustries": []
+		}, {
+			"idIndustry": 143,
+			"industry": "Personal",
+			"subindustries": [{
+				"idSubindustry": 95,
+				"subindustry": "Eyewear"
+			}, {
+				"idSubindustry": 150,
+				"subindustry": "Laundry Services"
+			}, {
+				"idSubindustry": 213,
+				"subindustry": "Personal Care Products"
+			}, {
+				"idSubindustry": 246,
+				"subindustry": "Salon Services"
+			}]
+		}, {
+			"idIndustry": 145,
+			"industry": "Pet Products",
+			"subindustries": []
+		}, {
+			"idIndustry": 163,
+			"industry": "School & Art Supplies",
+			"subindustries": []
+		}, {
+			"idIndustry": 187,
+			"industry": "Tobacco",
+			"subindustries": []
+		}, {
+			"idIndustry": 189,
+			"industry": "Toys & Games",
+			"subindustries": []
+		}, {
+			"idIndustry": 193,
+			"industry": "Travel Services (non-internet/mobile)",
+			"subindustries": []
+		}, {
+			"idIndustry": 195,
+			"industry": "Veterinary Care Services",
+			"subindustries": []
+		}, {
+			"idIndustry": 206,
+			"industry": "Sporting Goods",
+			"subindustries": []
+		}, {
+			"idIndustry": 207,
+			"industry": "Home Furnishings & Accessories",
+			"subindustries": []
+		}]
+	}, {
+		"idSector": 6,
+		"sector": "Electronics",
+		"industries": [{
+			"idIndustry": 30,
+			"industry": "Chips & Semiconductors",
+			"subindustries": [{
+				"idSubindustry": 257,
+				"subindustry": "Semiconductor Equipment"
+			}, {
+				"idSubindustry": 258,
+				"subindustry": "Semiconductors"
+			}, {
+				"idSubindustry": 259,
+				"subindustry": "Semiconductors: Analog Chips"
+			}, {
+				"idSubindustry": 260,
+				"subindustry": "Semiconductors: Audio Chips & Boards"
+			}, {
+				"idSubindustry": 261,
+				"subindustry": "Semiconductors: Communications Chips"
+			}, {
+				"idSubindustry": 262,
+				"subindustry": "Semiconductors: Components"
+			}, {
+				"idSubindustry": 263,
+				"subindustry": "Semiconductors: Design & Packaging Services"
+			}, {
+				"idSubindustry": 264,
+				"subindustry": "Semiconductors: Graphics, video chips & boards"
+			}, {
+				"idSubindustry": 265,
+				"subindustry": "Semiconductors: Memory, Networking & Sensor Chips"
+			}, {
+				"idSubindustry": 266,
+				"subindustry": "Semiconductors: Microprocessors"
+			}, {
+				"idSubindustry": 341,
+				"subindustry": "Semiconductors: Integrated Circuits"
+			}, {
+				"idSubindustry": 342,
+				"subindustry": "Semiconductors: Sensors"
+			}]
+		}, {
+			"idIndustry": 70,
+			"industry": "Electrical Product Distribution",
+			"subindustries": [{
+				"idSubindustry": 178,
+				"subindustry": "Motors & Motor Drives"
+			}, {
+				"idSubindustry": 223,
+				"subindustry": "Power Generation & Storage"
+			}, {
+				"idSubindustry": 286,
+				"subindustry": "Switches & Connectors"
+			}, {
+				"idSubindustry": 298,
+				"subindustry": "Transformers & Power Conversion"
+			}]
+		}, {
+			"idIndustry": 71,
+			"industry": "Electrical Products",
+			"subindustries": []
+		}, {
+			"idIndustry": 72,
+			"industry": "Electronic Components",
+			"subindustries": [{
+				"idSubindustry": 57,
+				"subindustry": "Component Distribution"
+			}, {
+				"idSubindustry": 84,
+				"subindustry": "Display Components"
+			}, {
+				"idSubindustry": 154,
+				"subindustry": "Lighting & LED"
+			}, {
+				"idSubindustry": 198,
+				"subindustry": "Optical Switches & Transmission Components"
+			}, {
+				"idSubindustry": 315,
+				"subindustry": "Wireless Communications"
+			}, {
+				"idSubindustry": 336,
+				"subindustry": "Processors"
+			}]
+		}, {
+			"idIndustry": 73,
+			"industry": "Electronic Manufacturing Services",
+			"subindustries": []
+		}, {
+			"idIndustry": 74,
+			"industry": "Electronic test, measurement & monitoring",
+			"subindustries": []
+		}, {
+			"idIndustry": 181,
+			"industry": "Technical & Scientific Instrumentation",
+			"subindustries": []
+		}]
+	}, {
+		"idSector": 7,
+		"sector": "Energy & Utilities",
+		"industries": [{
+			"idIndustry": 69,
+			"industry": "Electric",
+			"subindustries": [{
+				"idSubindustry": 102,
+				"subindustry": "Fossil Fuels"
+			}, {
+				"idSubindustry": 192,
+				"subindustry": "Nuclear"
+			}, {
+				"idSubindustry": 299,
+				"subindustry": "Transmission & Distribution"
+			}]
+		}, {
+			"idIndustry": 77,
+			"industry": "Energy Efficiency",
+			"subindustries": []
+		}, {
+			"idIndustry": 78,
+			"industry": "Energy Storage",
+			"subindustries": []
+		}, {
+			"idIndustry": 79,
+			"industry": "Energy Trading & Marketing",
+			"subindustries": []
+		}, {
+			"idIndustry": 130,
+			"industry": "Natural Gas Utilities",
+			"subindustries": []
+		}, {
+			"idIndustry": 136,
+			"industry": "Oil & Gas Production & Exploration",
+			"subindustries": []
+		}, {
+			"idIndustry": 137,
+			"industry": "Oil & Gas Refining & Distribution",
+			"subindustries": []
+		}, {
+			"idIndustry": 138,
+			"industry": "Oil & Gas Storage & Transport",
+			"subindustries": []
+		}, {
+			"idIndustry": 156,
+			"industry": "Renewables",
+			"subindustries": [{
+				"idSubindustry": 32,
+				"subindustry": "Bio-energy"
+			}, {
+				"idSubindustry": 114,
+				"subindustry": "Geothermal"
+			}, {
+				"idSubindustry": 132,
+				"subindustry": "Hydrogen/Fuel Cell"
+			}, {
+				"idSubindustry": 139,
+				"subindustry": "Infrastructure"
+			}, {
+				"idSubindustry": 193,
+				"subindustry": "Ocean & Hydro"
+			}, {
+				"idSubindustry": 202,
+				"subindustry": "Other Renewables"
+			}, {
+				"idSubindustry": 270,
+				"subindustry": "Solar"
+			}, {
+				"idSubindustry": 314,
+				"subindustry": "Wind"
+			}]
+		}]
+	}, {
+		"idSector": 8,
+		"sector": "Environmental Services & Equipment",
+		"industries": [{
+			"idIndustry": 81,
+			"industry": "Environmental & Energy Consulting",
+			"subindustries": []
+		}, {
+			"idIndustry": 94,
+			"industry": "Hazardous Waste Services",
+			"subindustries": []
+		}, {
+			"idIndustry": 154,
+			"industry": "Recycling",
+			"subindustries": []
+		}, {
+			"idIndustry": 155,
+			"industry": "Remediation & Environmental Cleanup",
+			"subindustries": []
+		}, {
+			"idIndustry": 171,
+			"industry": "Solid Waste",
+			"subindustries": []
+		}]
+	}, {
+		"idSector": 9,
+		"sector": "Financial",
+		"industries": [{
+			"idIndustry": 1,
+			"industry": "Accounting",
+			"subindustries": []
+		}, {
+			"idIndustry": 15,
+			"industry": "Asset/Financial Management",
+			"subindustries": []
+		}, {
+			"idIndustry": 48,
+			"industry": "Credit & Collections",
+			"subindustries": []
+		}, {
+			"idIndustry": 104,
+			"industry": "Insurance",
+			"subindustries": [{
+				"idSubindustry": 142,
+				"subindustry": "Insurance Broker"
+			}, {
+				"idSubindustry": 153,
+				"subindustry": "Life Insurance"
+			}, {
+				"idSubindustry": 200,
+				"subindustry": "Other Insurance"
+			}, {
+				"idSubindustry": 230,
+				"subindustry": "Property & Casualty"
+			}, {
+				"idSubindustry": 236,
+				"subindustry": "Reinsurance"
+			}, {
+				"idSubindustry": 243,
+				"subindustry": "Risk Management"
+			}, {
+				"idSubindustry": 337,
+				"subindustry": "Health Insurance"
+			}]
+		}, {
+			"idIndustry": 106,
+			"industry": "Investment Banking",
+			"subindustries": []
+		}, {
+			"idIndustry": 107,
+			"industry": "Investment Firms & Funds",
+			"subindustries": []
+		}, {
+			"idIndustry": 113,
+			"industry": "Lending",
+			"subindustries": [{
+				"idSubindustry": 48,
+				"subindustry": "Commercial"
+			}, {
+				"idSubindustry": 65,
+				"subindustry": "Consumer"
+			}, {
+				"idSubindustry": 172,
+				"subindustry": "Microfinance"
+			}]
+		}, {
+			"idIndustry": 142,
+			"industry": "Payments (non-internet/mobile)",
+			"subindustries": [{
+				"idSubindustry": 144,
+				"subindustry": "Issuer"
+			}, {
+				"idSubindustry": 169,
+				"subindustry": "Merchant Services"
+			}, {
+				"idSubindustry": 226,
+				"subindustry": "Processing"
+			}]
+		}, {
+			"idIndustry": 153,
+			"industry": "Real Estate",
+			"subindustries": [{
+				"idSubindustry": 50,
+				"subindustry": "Commercial Property Management"
+			}, {
+				"idSubindustry": 51,
+				"subindustry": "Commercial Real Estate Brokerage"
+			}, {
+				"idSubindustry": 52,
+				"subindustry": "Commercial Real Estate Development"
+			}, {
+				"idSubindustry": 53,
+				"subindustry": "Commercial Real Estate Investment"
+			}, {
+				"idSubindustry": 237,
+				"subindustry": "REITs"
+			}, {
+				"idSubindustry": 238,
+				"subindustry": "Residential Property Management"
+			}, {
+				"idSubindustry": 239,
+				"subindustry": "Residential Real Estate Brokerage"
+			}, {
+				"idSubindustry": 240,
+				"subindustry": "Residential Real Estate Development"
+			}, {
+				"idSubindustry": 241,
+				"subindustry": "Residential Real Estate Investment"
+			}]
+		}, {
+			"idIndustry": 160,
+			"industry": "Retail Banking",
+			"subindustries": []
+		}, {
+			"idIndustry": 165,
+			"industry": "Securities Brokers & Traders",
+			"subindustries": []
+		}, {
+			"idIndustry": 177,
+			"industry": "Stock Exchanges",
+			"subindustries": []
+		}]
+	}, {
+		"idSector": 10,
+		"sector": "Food & Beverages",
+		"industries": [{
+			"idIndustry": 7,
+			"industry": "Alcoholic Beverages",
+			"subindustries": []
+		}, {
+			"idIndustry": 24,
+			"industry": "Bottling & Distribution",
+			"subindustries": []
+		}, {
+			"idIndustry": 26,
+			"industry": "Candy & snackfoods",
+			"subindustries": []
+		}, {
+			"idIndustry": 27,
+			"industry": "Canned and frozen foods",
+			"subindustries": []
+		}, {
+			"idIndustry": 51,
+			"industry": "Dairy products",
+			"subindustries": []
+		}, {
+			"idIndustry": 85,
+			"industry": "Food safety & preservation",
+			"subindustries": []
+		}, {
+			"idIndustry": 86,
+			"industry": "Foodservice",
+			"subindustries": []
+		}, {
+			"idIndustry": 87,
+			"industry": "Fresh foods",
+			"subindustries": []
+		}, {
+			"idIndustry": 103,
+			"industry": "Ingredients, flavoring & condiments",
+			"subindustries": []
+		}, {
+			"idIndustry": 117,
+			"industry": "Meat, fish & seafood",
+			"subindustries": []
+		}, {
+			"idIndustry": 132,
+			"industry": "Non-alcoholic beverages",
+			"subindustries": []
+		}, {
+			"idIndustry": 198,
+			"industry": "Wholesale food distributors",
+			"subindustries": []
+		}]
+	}, {
+		"idSector": 11,
+		"sector": "Healthcare",
+		"industries": [{
+			"idIndustry": 8,
+			"industry": "Alternative Medicine",
+			"subindustries": []
+		}, {
+			"idIndustry": 23,
+			"industry": "Biotechnology",
+			"subindustries": []
+		}, {
+			"idIndustry": 54,
+			"industry": "Dental Products & Services",
+			"subindustries": []
+		}, {
+			"idIndustry": 59,
+			"industry": "Disease Diagnosis",
+			"subindustries": []
+		}, {
+			"idIndustry": 60,
+			"industry": "Drug Delivery",
+			"subindustries": []
+		}, {
+			"idIndustry": 61,
+			"industry": "Drug Development",
+			"subindustries": []
+		}, {
+			"idIndustry": 62,
+			"industry": "Drug Discovery",
+			"subindustries": []
+		}, {
+			"idIndustry": 63,
+			"industry": "Drug Manufacturing",
+			"subindustries": [{
+				"idSubindustry": 79,
+				"subindustry": "Diagnostic Substances"
+			}, {
+				"idSubindustry": 113,
+				"subindustry": "Generics"
+			}, {
+				"idSubindustry": 199,
+				"subindustry": "OTC Medications"
+			}, {
+				"idSubindustry": 307,
+				"subindustry": "Vitamins, Supplements & Nutraceuticals"
+			}]
+		}, {
+			"idIndustry": 68,
+			"industry": "Elective & Aesthetic Medicine",
+			"subindustries": []
+		}, {
+			"idIndustry": 96,
+			"industry": "Healthcare Plans",
+			"subindustries": []
+		}, {
+			"idIndustry": 118,
+			"industry": "Medical Devices & Equipment",
+			"subindustries": [{
+				"idSubindustry": 78,
+				"subindustry": "Device Design & Manufacturing"
+			}, {
+				"idSubindustry": 133,
+				"subindustry": "Imaging & Diagnostic Equipment"
+			}, {
+				"idSubindustry": 167,
+				"subindustry": "Medical Supplies"
+			}, {
+				"idSubindustry": 201,
+				"subindustry": "Other Medical Devices"
+			}, {
+				"idSubindustry": 209,
+				"subindustry": "Patient Monitoring"
+			}, {
+				"idSubindustry": 231,
+				"subindustry": "Prosthetics"
+			}, {
+				"idSubindustry": 284,
+				"subindustry": "Surgical Devices"
+			}, {
+				"idSubindustry": 293,
+				"subindustry": "Therapeutic Devices"
+			}]
+		}, {
+			"idIndustry": 119,
+			"industry": "Medical Equipment & Supplies",
+			"subindustries": []
+		}, {
+			"idIndustry": 120,
+			"industry": "Medical Facilities & Services",
+			"subindustries": [{
+				"idSubindustry": 121,
+				"subindustry": "Health care plans"
+			}, {
+				"idSubindustry": 127,
+				"subindustry": "Home Healthcare"
+			}, {
+				"idSubindustry": 128,
+				"subindustry": "Hospitals"
+			}, {
+				"idSubindustry": 156,
+				"subindustry": "Long-term Care"
+			}, {
+				"idSubindustry": 164,
+				"subindustry": "Medical Laboratories & Research"
+			}, {
+				"idSubindustry": 165,
+				"subindustry": "Medical Practice Management & Services"
+			}, {
+				"idSubindustry": 166,
+				"subindustry": "Medical Practitioners"
+			}, {
+				"idSubindustry": 224,
+				"subindustry": "Prescription Benefits Management"
+			}, {
+				"idSubindustry": 271,
+				"subindustry": "Specialized Healthcare Services"
+			}]
+		}, {
+			"idIndustry": 121,
+			"industry": "Medical Information",
+			"subindustries": []
+		}, {
+			"idIndustry": 122,
+			"industry": "Medical Product Distribution",
+			"subindustries": []
+		}, {
+			"idIndustry": 146,
+			"industry": "Pharmaceutical Distribution & Wholesale",
+			"subindustries": []
+		}, {
+			"idIndustry": 147,
+			"industry": "Pharmaceuticals / Drugs",
+			"subindustries": []
+		}, {
+			"idIndustry": 210,
+			"industry": "Stealth Mode",
+			"subindustries": []
+		}]
+	}, {
+		"idSector": 12,
+		"sector": "Industrial",
+		"industries": [{
+			"idIndustry": 4,
+			"industry": "Aerospace & Defense",
+			"subindustries": [{
+				"idSubindustry": 49,
+				"subindustry": "Commercial aircraft manufacturing"
+			}, {
+				"idSubindustry": 159,
+				"subindustry": "Maintenance & Services"
+			}, {
+				"idSubindustry": 174,
+				"subindustry": "Military aircraft manufacturing"
+			}, {
+				"idSubindustry": 206,
+				"subindustry": "Other weapon design & manufacturing"
+			}, {
+				"idSubindustry": 208,
+				"subindustry": "Parts Manufacturing & Distribution"
+			}, {
+				"idSubindustry": 267,
+				"subindustry": "Ship & Submarine manufacturing"
+			}]
+		}, {
+			"idIndustry": 21,
+			"industry": "Basic Materials",
+			"subindustries": [{
+				"idSubindustry": 12,
+				"subindustry": "Agricultural Chemicals"
+			}, {
+				"idSubindustry": 40,
+				"subindustry": "Chemical Distribution"
+			}, {
+				"idSubindustry": 41,
+				"subindustry": "Chemicals"
+			}, {
+				"idSubindustry": 171,
+				"subindustry": "Metals"
+			}, {
+				"idSubindustry": 220,
+				"subindustry": "Plastics & Fibers"
+			}, {
+				"idSubindustry": 272,
+				"subindustry": "Specialty Chemicals"
+			}, {
+				"idSubindustry": 287,
+				"subindustry": "Synthetics"
+			}]
+		}, {
+			"idIndustry": 42,
+			"industry": "Construction",
+			"subindustries": [{
+				"idSubindustry": 64,
+				"subindustry": "Construction & Design Services"
+			}, {
+				"idSubindustry": 112,
+				"subindustry": "General Building Materials"
+			}, {
+				"idSubindustry": 157,
+				"subindustry": "Lumber & Wood Production"
+			}, {
+				"idSubindustry": 221,
+				"subindustry": "Plumbing & HVAC"
+			}]
+		}, {
+			"idIndustry": 115,
+			"industry": "Manufacturing",
+			"subindustries": [{
+				"idSubindustry": 85,
+				"subindustry": "Diversified Machinery Manufacturing"
+			}, {
+				"idSubindustry": 96,
+				"subindustry": "Farm & Construction Machinery Manufacturing"
+			}, {
+				"idSubindustry": 124,
+				"subindustry": "Heavy Equipment Manufacturing"
+			}, {
+				"idSubindustry": 134,
+				"subindustry": "Industrial Equipment & Component Manufacturing"
+			}, {
+				"idSubindustry": 135,
+				"subindustry": "Industrial Equipment Leasing"
+			}, {
+				"idSubindustry": 136,
+				"subindustry": "Industrial Machinery & Equipment Distribution"
+			}, {
+				"idSubindustry": 149,
+				"subindustry": "Laboratory & Research Equipment Manufacturing"
+			}, {
+				"idSubindustry": 158,
+				"subindustry": "Machine Tools & Accessories Manufacturing"
+			}, {
+				"idSubindustry": 170,
+				"subindustry": "Metal Fabrication"
+			}, {
+				"idSubindustry": 207,
+				"subindustry": "Paper & Paper Product Manufacturing"
+			}, {
+				"idSubindustry": 245,
+				"subindustry": "Rubber & Plastic Product Manufacturing"
+			}, {
+				"idSubindustry": 292,
+				"subindustry": "Textile Manufacturing"
+			}]
+		}, {
+			"idIndustry": 149,
+			"industry": "Pollution & Treatment Controls",
+			"subindustries": []
+		}, {
+			"idIndustry": 196,
+			"industry": "Water",
+			"subindustries": [{
+				"idSubindustry": 77,
+				"subindustry": "Desalination"
+			}, {
+				"idSubindustry": 232,
+				"subindustry": "Purification"
+			}, {
+				"idSubindustry": 309,
+				"subindustry": "Waste Water Treatment"
+			}, {
+				"idSubindustry": 310,
+				"subindustry": "Water Distribution"
+			}]
+		}, {
+			"idIndustry": 208,
+			"industry": "Machinery & Equipment",
+			"subindustries": [{
+				"idSubindustry": 338,
+				"subindustry": "Robotics"
+			}]
+		}]
+	}, {
+		"idSector": 13,
+		"sector": "Internet",
+		"industries": [{
+			"idIndustry": 64,
+			"industry": "eCommerce",
+			"subindustries": [{
+				"idSubindustry": 15,
+				"subindustry": "Apparel & Accessories"
+			}, {
+				"idSubindustry": 24,
+				"subindustry": "Auction & Classifieds"
+			}, {
+				"idSubindustry": 26,
+				"subindustry": "Auto"
+			}, {
+				"idSubindustry": 28,
+				"subindustry": "B2B Commerce"
+			}, {
+				"idSubindustry": 58,
+				"subindustry": "Computer & Software"
+			}, {
+				"idSubindustry": 80,
+				"subindustry": "Digital Goods"
+			}, {
+				"idSubindustry": 82,
+				"subindustry": "Discount"
+			}, {
+				"idSubindustry": 87,
+				"subindustry": "eCommerce enablement"
+			}, {
+				"idSubindustry": 90,
+				"subindustry": "Electronics & Appliances"
+			}, {
+				"idSubindustry": 94,
+				"subindustry": "Events & Ticketing"
+			}, {
+				"idSubindustry": 99,
+				"subindustry": "Food & Grocery"
+			}, {
+				"idSubindustry": 110,
+				"subindustry": "Gasoline"
+			}, {
+				"idSubindustry": 125,
+				"subindustry": "Home Furnishings & Improvement"
+			}, {
+				"idSubindustry": 146,
+				"subindustry": "Jewelry"
+			}, {
+				"idSubindustry": 184,
+				"subindustry": "Music, Video, Books & Entertainment"
+			}, {
+				"idSubindustry": 194,
+				"subindustry": "Office Products"
+			}, {
+				"idSubindustry": 204,
+				"subindustry": "Other Retail"
+			}, {
+				"idSubindustry": 216,
+				"subindustry": "Pharmacies"
+			}, {
+				"idSubindustry": 274,
+				"subindustry": "Sporting Goods"
+			}, {
+				"idSubindustry": 295,
+				"subindustry": "Toys & Games"
+			}, {
+				"idSubindustry": 300,
+				"subindustry": "Travel (internet)"
+			}, {
+				"idSubindustry": 325,
+				"subindustry": "Marketplace"
+			}, {
+				"idSubindustry": 326,
+				"subindustry": "Multi-Product"
+			}, {
+				"idSubindustry": 343,
+				"subindustry": "Comparison Shopping"
+			}]
+		}, {
+			"idIndustry": 105,
+			"industry": "Internet Software & Services",
+			"subindustries": [{
+				"idSubindustry": 2,
+				"subindustry": "Accounting & Finance"
+			}, {
+				"idSubindustry": 5,
+				"subindustry": "Adult Entertainment"
+			}, {
+				"idSubindustry": 8,
+				"subindustry": "Advertising Network or Exchange"
+			}, {
+				"idSubindustry": 10,
+				"subindustry": "Advertising, Sales & Marketing"
+			}, {
+				"idSubindustry": 17,
+				"subindustry": "Application & Data Integration"
+			}, {
+				"idSubindustry": 21,
+				"subindustry": "Asset & Financial Management & Trading"
+			}, {
+				"idSubindustry": 30,
+				"subindustry": "Billing, Expense Management and Procurement"
+			}, {
+				"idSubindustry": 33,
+				"subindustry": "Browser Software/Plugins"
+			}, {
+				"idSubindustry": 35,
+				"subindustry": "Business Intelligence, Analytics & Performance Mgmt"
+			}, {
+				"idSubindustry": 45,
+				"subindustry": "Collaboration & Project Management"
+			}, {
+				"idSubindustry": 55,
+				"subindustry": "Compliance"
+			}, {
+				"idSubindustry": 62,
+				"subindustry": "Conferencing & Communication"
+			}, {
+				"idSubindustry": 66,
+				"subindustry": "Content Management"
+			}, {
+				"idSubindustry": 68,
+				"subindustry": "Customer Relationship Management"
+			}, {
+				"idSubindustry": 70,
+				"subindustry": "Data & Document Management"
+			}, {
+				"idSubindustry": 73,
+				"subindustry": "Data Storage"
+			}, {
+				"idSubindustry": 75,
+				"subindustry": "Database Management"
+			}, {
+				"idSubindustry": 86,
+				"subindustry": "Domain & SEO Services"
+			}, {
+				"idSubindustry": 88,
+				"subindustry": "Education & Training"
+			}, {
+				"idSubindustry": 92,
+				"subindustry": "Email"
+			}, {
+				"idSubindustry": 105,
+				"subindustry": "Gambling"
+			}, {
+				"idSubindustry": 108,
+				"subindustry": "Gaming"
+			}, {
+				"idSubindustry": 115,
+				"subindustry": "Government"
+			}, {
+				"idSubindustry": 117,
+				"subindustry": "Green/Environmental"
+			}, {
+				"idSubindustry": 119,
+				"subindustry": "Health & Wellness"
+			}, {
+				"idSubindustry": 122,
+				"subindustry": "Healthcare"
+			}, {
+				"idSubindustry": 130,
+				"subindustry": "HR & Workforce Management"
+			}, {
+				"idSubindustry": 137,
+				"subindustry": "Information Providers & Portals"
+			}, {
+				"idSubindustry": 143,
+				"subindustry": "Internet Service Provider"
+			}, {
+				"idSubindustry": 151,
+				"subindustry": "Legal"
+			}, {
+				"idSubindustry": 161,
+				"subindustry": "Manufacturing, Warehousing & Industrial"
+			}, {
+				"idSubindustry": 176,
+				"subindustry": "Monitoring & Security"
+			}, {
+				"idSubindustry": 180,
+				"subindustry": "Multimedia & Graphics"
+			}, {
+				"idSubindustry": 182,
+				"subindustry": "Music"
+			}, {
+				"idSubindustry": 188,
+				"subindustry": "Networking & Connectivity"
+			}, {
+				"idSubindustry": 190,
+				"subindustry": "News & Discussion"
+			}, {
+				"idSubindustry": 196,
+				"subindustry": "Operating Systems & Utility"
+			}, {
+				"idSubindustry": 210,
+				"subindustry": "Payments"
+			}, {
+				"idSubindustry": 212,
+				"subindustry": "Personal & Professional Development"
+			}, {
+				"idSubindustry": 218,
+				"subindustry": "Photo"
+			}, {
+				"idSubindustry": 242,
+				"subindustry": "Retail & Inventory"
+			}, {
+				"idSubindustry": 248,
+				"subindustry": "Scientific, Engineering"
+			}, {
+				"idSubindustry": 250,
+				"subindustry": "Search"
+			}, {
+				"idSubindustry": 268,
+				"subindustry": "Social"
+			}, {
+				"idSubindustry": 277,
+				"subindustry": "Sports"
+			}, {
+				"idSubindustry": 281,
+				"subindustry": "Supply Chain & Logistics"
+			}, {
+				"idSubindustry": 290,
+				"subindustry": "Testing"
+			}, {
+				"idSubindustry": 303,
+				"subindustry": "Video"
+			}, {
+				"idSubindustry": 311,
+				"subindustry": "Web Development"
+			}, {
+				"idSubindustry": 312,
+				"subindustry": "Website hosting"
+			}, {
+				"idSubindustry": 321,
+				"subindustry": "Travel"
+			}, {
+				"idSubindustry": 323,
+				"subindustry": "Real Estate"
+			}]
+		}, {
+			"idIndustry": 212,
+			"industry": "Stealth Mode",
+			"subindustries": []
+		}]
+	}, {
+		"idSector": 14,
+		"sector": "Leisure",
+		"industries": [{
+			"idIndustry": 80,
+			"industry": "Entertainment",
+			"subindustries": [{
+				"idSubindustry": 7,
+				"subindustry": "Adult Entertainment (non-internet/mobile)"
+			}, {
+				"idSubindustry": 14,
+				"subindustry": "Amusement Parks"
+			}, {
+				"idSubindustry": 107,
+				"subindustry": "Gambling (non-internet/mobile)"
+			}, {
+				"idSubindustry": 179,
+				"subindustry": "Movie Theaters"
+			}]
+		}, {
+			"idIndustry": 114,
+			"industry": "Lodging",
+			"subindustries": []
+		}, {
+			"idIndustry": 158,
+			"industry": "Restaurants",
+			"subindustries": [{
+				"idSubindustry": 39,
+				"subindustry": "Casual Dining"
+			}, {
+				"idSubindustry": 203,
+				"subindustry": "Other Restaurants"
+			}, {
+				"idSubindustry": 234,
+				"subindustry": "Quick Service"
+			}, {
+				"idSubindustry": 273,
+				"subindustry": "Specialty Restaurants"
+			}]
+		}, {
+			"idIndustry": 175,
+			"industry": "Sports & Recreation",
+			"subindustries": [{
+				"idSubindustry": 97,
+				"subindustry": "Fitness"
+			}, {
+				"idSubindustry": 228,
+				"subindustry": "Professional Sports Teams"
+			}]
+		}]
+	}, {
+		"idSector": 15,
+		"sector": "Media (Traditional)",
+		"industries": [{
+			"idIndustry": 83,
+			"industry": "Film & Video",
+			"subindustries": []
+		}, {
+			"idIndustry": 127,
+			"industry": "Music",
+			"subindustries": []
+		}, {
+			"idIndustry": 151,
+			"industry": "Publishing",
+			"subindustries": []
+		}, {
+			"idIndustry": 152,
+			"industry": "Radio",
+			"subindustries": []
+		}, {
+			"idIndustry": 185,
+			"industry": "Television",
+			"subindustries": []
+		}]
+	}, {
+		"idSector": 16,
+		"sector": "Metals & Mining",
+		"industries": [{
+			"idIndustry": 9,
+			"industry": "Aluminum",
+			"subindustries": []
+		}, {
+			"idIndustry": 32,
+			"industry": "Coal",
+			"subindustries": []
+		}, {
+			"idIndustry": 47,
+			"industry": "Copper",
+			"subindustries": []
+		}, {
+			"idIndustry": 56,
+			"industry": "Diamond & Precious Stones",
+			"subindustries": []
+		}, {
+			"idIndustry": 123,
+			"industry": "Metal & Mining Brokers/Distribution",
+			"subindustries": []
+		}, {
+			"idIndustry": 150,
+			"industry": "Precious Metals",
+			"subindustries": []
+		}, {
+			"idIndustry": 172,
+			"industry": "Specialty",
+			"subindustries": []
+		}, {
+			"idIndustry": 176,
+			"industry": "Steel",
+			"subindustries": []
+		}]
+	}, {
+		"idSector": 17,
+		"sector": "Mobile & Telecommunications",
+		"industries": [{
+			"idIndustry": 82,
+			"industry": "Fiber Optics",
+			"subindustries": []
+		}, {
+			"idIndustry": 124,
+			"industry": "Mobile Commerce",
+			"subindustries": [{
+				"idSubindustry": 16,
+				"subindustry": "Apparel & Accessories"
+			}, {
+				"idSubindustry": 25,
+				"subindustry": "Auction & Classifieds"
+			}, {
+				"idSubindustry": 27,
+				"subindustry": "Auto"
+			}, {
+				"idSubindustry": 29,
+				"subindustry": "B2B Commerce"
+			}, {
+				"idSubindustry": 59,
+				"subindustry": "Computer & Software"
+			}, {
+				"idSubindustry": 81,
+				"subindustry": "Digital Goods"
+			}, {
+				"idSubindustry": 83,
+				"subindustry": "Discount"
+			}, {
+				"idSubindustry": 91,
+				"subindustry": "Electronics & Appliances"
+			}, {
+				"idSubindustry": 100,
+				"subindustry": "Food & Grocery"
+			}, {
+				"idSubindustry": 111,
+				"subindustry": "Gasoline"
+			}, {
+				"idSubindustry": 126,
+				"subindustry": "Home Furnishings & Improvement"
+			}, {
+				"idSubindustry": 147,
+				"subindustry": "Jewelry"
+			}, {
+				"idSubindustry": 175,
+				"subindustry": "Mobile Commerce enablement"
+			}, {
+				"idSubindustry": 185,
+				"subindustry": "Music, Video, Books & Entertainment"
+			}, {
+				"idSubindustry": 195,
+				"subindustry": "Office Products"
+			}, {
+				"idSubindustry": 205,
+				"subindustry": "Other Retail"
+			}, {
+				"idSubindustry": 217,
+				"subindustry": "Pharmacies"
+			}, {
+				"idSubindustry": 275,
+				"subindustry": "Sporting Goods"
+			}, {
+				"idSubindustry": 296,
+				"subindustry": "Toys & Games"
+			}, {
+				"idSubindustry": 301,
+				"subindustry": "Travel (mobile)"
+			}, {
+				"idSubindustry": 327,
+				"subindustry": "Marketplace"
+			}, {
+				"idSubindustry": 328,
+				"subindustry": "Multi-Product"
+			}, {
+				"idSubindustry": 344,
+				"subindustry": "Comparison Shopping"
+			}]
+		}, {
+			"idIndustry": 125,
+			"industry": "Mobile Software & Services",
+			"subindustries": [{
+				"idSubindustry": 3,
+				"subindustry": "Accounting & Finance"
+			}, {
+				"idSubindustry": 6,
+				"subindustry": "Adult Entertainment"
+			}, {
+				"idSubindustry": 9,
+				"subindustry": "Advertising Network or Exchange"
+			}, {
+				"idSubindustry": 11,
+				"subindustry": "Advertising, Sales & Marketing"
+			}, {
+				"idSubindustry": 18,
+				"subindustry": "Application & Data Integration"
+			}, {
+				"idSubindustry": 20,
+				"subindustry": "Application Development"
+			}, {
+				"idSubindustry": 22,
+				"subindustry": "Asset & Financial Management & Trading"
+			}, {
+				"idSubindustry": 31,
+				"subindustry": "Billing, Expense Management and Procurement"
+			}, {
+				"idSubindustry": 34,
+				"subindustry": "Browser Software/Plugins"
+			}, {
+				"idSubindustry": 36,
+				"subindustry": "Business Intelligence, Analytics & Performance Mgmt"
+			}, {
+				"idSubindustry": 46,
+				"subindustry": "Collaboration & Project Management"
+			}, {
+				"idSubindustry": 56,
+				"subindustry": "Compliance"
+			}, {
+				"idSubindustry": 63,
+				"subindustry": "Conferencing & Communication"
+			}, {
+				"idSubindustry": 67,
+				"subindustry": "Content Management"
+			}, {
+				"idSubindustry": 69,
+				"subindustry": "Customer Relationship Management"
+			}, {
+				"idSubindustry": 71,
+				"subindustry": "Data & Document Management"
+			}, {
+				"idSubindustry": 76,
+				"subindustry": "Database Management"
+			}, {
+				"idSubindustry": 89,
+				"subindustry": "Education & Training"
+			}, {
+				"idSubindustry": 93,
+				"subindustry": "Email"
+			}, {
+				"idSubindustry": 106,
+				"subindustry": "Gambling"
+			}, {
+				"idSubindustry": 109,
+				"subindustry": "Gaming"
+			}, {
+				"idSubindustry": 116,
+				"subindustry": "Government"
+			}, {
+				"idSubindustry": 118,
+				"subindustry": "Green/Environmental"
+			}, {
+				"idSubindustry": 120,
+				"subindustry": "Health & Wellness"
+			}, {
+				"idSubindustry": 123,
+				"subindustry": "Healthcare"
+			}, {
+				"idSubindustry": 131,
+				"subindustry": "HR & Workforce Management"
+			}, {
+				"idSubindustry": 138,
+				"subindustry": "Information Providers & Portals"
+			}, {
+				"idSubindustry": 152,
+				"subindustry": "Legal"
+			}, {
+				"idSubindustry": 162,
+				"subindustry": "Manufacturing, Warehousing & Industrial"
+			}, {
+				"idSubindustry": 181,
+				"subindustry": "Multimedia & Graphics"
+			}, {
+				"idSubindustry": 183,
+				"subindustry": "Music"
+			}, {
+				"idSubindustry": 189,
+				"subindustry": "Networking & Connectivity"
+			}, {
+				"idSubindustry": 191,
+				"subindustry": "News & Discussion"
+			}, {
+				"idSubindustry": 197,
+				"subindustry": "Operating Systems & Utility"
+			}, {
+				"idSubindustry": 211,
+				"subindustry": "Payments"
+			}, {
+				"idSubindustry": 219,
+				"subindustry": "Photo"
+			}, {
+				"idSubindustry": 249,
+				"subindustry": "Scientific, Engineering"
+			}, {
+				"idSubindustry": 251,
+				"subindustry": "Search"
+			}, {
+				"idSubindustry": 252,
+				"subindustry": "Security"
+			}, {
+				"idSubindustry": 269,
+				"subindustry": "Social"
+			}, {
+				"idSubindustry": 278,
+				"subindustry": "Sports"
+			}, {
+				"idSubindustry": 279,
+				"subindustry": "Storage & Systems Management"
+			}, {
+				"idSubindustry": 282,
+				"subindustry": "Supply Chain & Logistics"
+			}, {
+				"idSubindustry": 291,
+				"subindustry": "Testing"
+			}, {
+				"idSubindustry": 304,
+				"subindustry": "Video"
+			}, {
+				"idSubindustry": 322,
+				"subindustry": "Travel"
+			}, {
+				"idSubindustry": 324,
+				"subindustry": "Real Estate"
+			}, {
+				"idSubindustry": 330,
+				"subindustry": "Location-Based & Navigation"
+			}, {
+				"idSubindustry": 345,
+				"subindustry": "Point of Sale"
+			}]
+		}, {
+			"idIndustry": 161,
+			"industry": "RFID Systems",
+			"subindustries": []
+		}, {
+			"idIndustry": 183,
+			"industry": "Telecom Devices & Equipment",
+			"subindustries": [{
+				"idSubindustry": 247,
+				"subindustry": "Satellite & Broadcast Network Equipment"
+			}, {
+				"idSubindustry": 289,
+				"subindustry": "Telecom Equipment Distribution & Maintenance"
+			}, {
+				"idSubindustry": 318,
+				"subindustry": "Wireless Telecom Equipment"
+			}, {
+				"idSubindustry": 319,
+				"subindustry": "Wireline Telecom Equipment"
+			}]
+		}, {
+			"idIndustry": 184,
+			"industry": "Telecom Services",
+			"subindustries": [{
+				"idSubindustry": 38,
+				"subindustry": "Cable & Satellite"
+			}, {
+				"idSubindustry": 72,
+				"subindustry": "Data & Broadband"
+			}, {
+				"idSubindustry": 98,
+				"subindustry": "Fixed Line Voice"
+			}, {
+				"idSubindustry": 305,
+				"subindustry": "Video Conferencing"
+			}, {
+				"idSubindustry": 308,
+				"subindustry": "VoIP"
+			}, {
+				"idSubindustry": 317,
+				"subindustry": "Wireless"
+			}, {
+				"idSubindustry": 329,
+				"subindustry": "Diversified & Bundled"
+			}]
+		}, {
+			"idIndustry": 188,
+			"industry": "Towers & Infrastructure",
+			"subindustries": []
+		}, {
+			"idIndustry": 213,
+			"industry": "Stealth Mode",
+			"subindustries": []
+		}]
+	}, {
+		"idSector": 19,
+		"sector": "Retail (non-internet/mobile)",
+		"industries": [{
+			"idIndustry": 11,
+			"industry": "Apparel & Accessories",
+			"subindustries": []
+		}, {
+			"idIndustry": 16,
+			"industry": "Auto",
+			"subindustries": []
+		}, {
+			"idIndustry": 29,
+			"industry": "Catalog, Mail Order & TV Sales",
+			"subindustries": []
+		}, {
+			"idIndustry": 36,
+			"industry": "Computer & Software",
+			"subindustries": []
+		}, {
+			"idIndustry": 46,
+			"industry": "Convenience Stores",
+			"subindustries": []
+		}, {
+			"idIndustry": 55,
+			"industry": "Department Stores",
+			"subindustries": []
+		}, {
+			"idIndustry": 57,
+			"industry": "Direct sales",
+			"subindustries": []
+		}, {
+			"idIndustry": 58,
+			"industry": "Discount",
+			"subindustries": []
+		}, {
+			"idIndustry": 75,
+			"industry": "Electronics & Appliances",
+			"subindustries": []
+		}, {
+			"idIndustry": 89,
+			"industry": "Gasoline",
+			"subindustries": []
+		}, {
+			"idIndustry": 92,
+			"industry": "Grocery",
+			"subindustries": []
+		}, {
+			"idIndustry": 98,
+			"industry": "Home Furnishings & Improvement",
+			"subindustries": []
+		}, {
+			"idIndustry": 110,
+			"industry": "Jewelry",
+			"subindustries": []
+		}, {
+			"idIndustry": 129,
+			"industry": "Music, Video, Books & Entertainment",
+			"subindustries": []
+		}, {
+			"idIndustry": 134,
+			"industry": "Office Products",
+			"subindustries": []
+		}, {
+			"idIndustry": 140,
+			"industry": "Other Retail",
+			"subindustries": []
+		}, {
+			"idIndustry": 148,
+			"industry": "Pharmacies",
+			"subindustries": []
+		}, {
+			"idIndustry": 170,
+			"industry": "Services",
+			"subindustries": []
+		}, {
+			"idIndustry": 174,
+			"industry": "Sporting Goods",
+			"subindustries": []
+		}, {
+			"idIndustry": 190,
+			"industry": "Toys & Games",
+			"subindustries": []
+		}]
+	}, {
+		"idSector": 20,
+		"sector": "Risk & Security",
+		"industries": [{
+			"idIndustry": 166,
+			"industry": "Security Products",
+			"subindustries": [{
+				"idSubindustry": 214,
+				"subindustry": "Personal Protective Equipment"
+			}, {
+				"idSubindustry": 253,
+				"subindustry": "Security & Monitoring Equipment"
+			}, {
+				"idSubindustry": 256,
+				"subindustry": "Security Systems"
+			}]
+		}, {
+			"idIndustry": 167,
+			"industry": "Security Services",
+			"subindustries": [{
+				"idSubindustry": 254,
+				"subindustry": "Security Consulting & Advisory"
+			}, {
+				"idSubindustry": 255,
+				"subindustry": "Security Guard Services"
+			}, {
+				"idSubindustry": 285,
+				"subindustry": "Surveillance & Investigation"
+			}]
+		}]
+	}, {
+		"idSector": 21,
+		"sector": "Software (non-internet/mobile)",
+		"industries": [{
+			"idIndustry": 2,
+			"industry": "Accounting & Finance Software",
+			"subindustries": []
+		}, {
+			"idIndustry": 13,
+			"industry": "Application & Data Integration Software",
+			"subindustries": []
+		}, {
+			"idIndustry": 14,
+			"industry": "Asset & Financial Management & Trading Software",
+			"subindustries": []
+		}, {
+			"idIndustry": 22,
+			"industry": "Billing, Expense Management and Procurement Software",
+			"subindustries": []
+		}, {
+			"idIndustry": 25,
+			"industry": "Business Intelligence, Analytics & Performance Mgmt Software",
+			"subindustries": []
+		}, {
+			"idIndustry": 33,
+			"industry": "Collaboration & Project Management Software",
+			"subindustries": []
+		}, {
+			"idIndustry": 35,
+			"industry": "Compliance",
+			"subindustries": []
+		}, {
+			"idIndustry": 41,
+			"industry": "Conferencing & Communication Software",
+			"subindustries": []
+		}, {
+			"idIndustry": 45,
+			"industry": "Content Management Software",
+			"subindustries": []
+		}, {
+			"idIndustry": 50,
+			"industry": "Customer Relationship Management Software",
+			"subindustries": []
+		}, {
+			"idIndustry": 52,
+			"industry": "Data & Document Management Software",
+			"subindustries": []
+		}, {
+			"idIndustry": 53,
+			"industry": "Database Management Software",
+			"subindustries": []
+		}, {
+			"idIndustry": 67,
+			"industry": "Education & Training Software",
+			"subindustries": []
+		}, {
+			"idIndustry": 76,
+			"industry": "Email",
+			"subindustries": []
+		}, {
+			"idIndustry": 84,
+			"industry": "Financial Services Software",
+			"subindustries": []
+		}, {
+			"idIndustry": 88,
+			"industry": "Gaming",
+			"subindustries": []
+		}, {
+			"idIndustry": 90,
+			"industry": "Government Software",
+			"subindustries": []
+		}, {
+			"idIndustry": 91,
+			"industry": "Green/Environmental Software",
+			"subindustries": []
+		}, {
+			"idIndustry": 97,
+			"industry": "Healthcare Software",
+			"subindustries": []
+		}, {
+			"idIndustry": 101,
+			"industry": "HR & Workforce Management Software",
+			"subindustries": []
+		}, {
+			"idIndustry": 112,
+			"industry": "Legal Software",
+			"subindustries": []
+		}, {
+			"idIndustry": 116,
+			"industry": "Manufacturing, Warehousing & Industrial Software",
+			"subindustries": []
+		}, {
+			"idIndustry": 126,
+			"industry": "Multimedia & Graphics",
+			"subindustries": []
+		}, {
+			"idIndustry": 131,
+			"industry": "Networking & Connectivity Software",
+			"subindustries": []
+		}, {
+			"idIndustry": 139,
+			"industry": "Operating Systems & Utility Software",
+			"subindustries": []
+		}, {
+			"idIndustry": 159,
+			"industry": "Retail & Inventory Software",
+			"subindustries": []
+		}, {
+			"idIndustry": 162,
+			"industry": "Sales & Marketing Software",
+			"subindustries": []
+		}, {
+			"idIndustry": 164,
+			"industry": "Scientific, Engineering Software",
+			"subindustries": []
+		}, {
+			"idIndustry": 168,
+			"industry": "Security Software",
+			"subindustries": []
+		}, {
+			"idIndustry": 178,
+			"industry": "Storage & Systems Management Software",
+			"subindustries": []
+		}, {
+			"idIndustry": 180,
+			"industry": "Supply Chain & Logistics Software",
+			"subindustries": []
+		}, {
+			"idIndustry": 186,
+			"industry": "Testing",
+			"subindustries": []
+		}, {
+			"idIndustry": 200,
+			"industry": "Real Estate",
+			"subindustries": []
+		}, {
+			"idIndustry": 205,
+			"industry": "Advertising, Sales & Marketing",
+			"subindustries": []
+		}, {
+			"idIndustry": 211,
+			"industry": "Stealth Mode",
+			"subindustries": []
+		}]
+	}]
+}

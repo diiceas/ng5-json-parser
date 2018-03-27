@@ -2,30 +2,30 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { ParserComponent } from './components/parser/parser.component';
+import { InvestmentsComponent } from './components/investments/investments.component';
 
 import { JsonService } from './services/json.service';
 import { HttpModule } from '@angular/http';
 
 import { RouterModule, Routes } from '@angular/router';
-import { IndustriesComponent } from './components/industries/industries.component';
+import { CategoriesComponent } from './components/categories/categories.component';
 
 let routes: Routes = [
   {
     path: '',
-    component: ParserComponent,
+    component: InvestmentsComponent,
   },
   {
-    path: 'industries',
-    component: IndustriesComponent,
+    path: 'categories',
+    component: CategoriesComponent,
   }
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
-    ParserComponent,
-    IndustriesComponent
+    InvestmentsComponent,
+    CategoriesComponent
   ],
   imports: [
     BrowserModule,

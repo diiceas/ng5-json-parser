@@ -4,11 +4,11 @@ import { Component, OnInit } from '@angular/core';
 declare var jQuery: any;
 
 @Component({
-  selector: 'app-parser',
-  templateUrl: './parser.component.html',
-  styleUrls: ['./parser.component.css']
+  selector: 'app-investments',
+  templateUrl: './investments.component.html',
+  styleUrls: ['./investments.component.css']
 })
-export class ParserComponent implements OnInit {
+export class InvestmentsComponent implements OnInit {
 
   constructor(private jsonService: JsonService) { }
 
@@ -16,7 +16,7 @@ export class ParserComponent implements OnInit {
 
   ngOnInit() {
     jQuery(".nav-item.investments").addClass("active");
-    this.jsonService.getJson().then(results => {
+    this.jsonService.getInvestments("accel_partners").then(results => {
       this.display(results.investments);
     });
   }

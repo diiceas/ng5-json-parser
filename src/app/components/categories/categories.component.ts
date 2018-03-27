@@ -3,11 +3,11 @@ import { Component, OnInit } from '@angular/core';
 declare var jQuery: any;
 
 @Component({
-  selector: 'app-industries',
-  templateUrl: './industries.component.html',
-  styleUrls: ['./industries.component.css']
+  selector: 'app-categories',
+  templateUrl: './categories.component.html',
+  styleUrls: ['./categories.component.css']
 })
-export class IndustriesComponent implements OnInit {
+export class CategoriesComponent implements OnInit {
 
   constructor() { }
 

@@ -5,10 +5,17 @@ import 'rxjs/add/operator/map';
 @Injectable()
 export class JsonService {
 
-  private _url = '/assets/accel_partners.json';
   constructor(private _http: Http) { }
-  getJson() {
-    return this._http.get(this._url)
+
+  getInvestments(slug) {
+    return this._http.get(`/assets/${slug}.json`)
+      .toPromise()
+      .then(results => results.json())
+      .catch(this.handleError);
+  }
+
+  getCategories(){
+    return this._http.get(`/assets/categories.json`)
       .toPromise()
       .then(results => results.json())
       .catch(this.handleError);
