@@ -5,11 +5,11 @@ import { JsonService } from './../../services/json.service';
 declare var jQuery: any;
 
 @Component({
-  selector: 'app-investments',
-  templateUrl: './investments.component.html',
-  styleUrls: ['./investments.component.css']
+  selector: 'app-investors',
+  templateUrl: './investors.component.html',
+  styleUrls: ['./investors.component.css']
 })
-export class InvestmentsComponent implements OnInit {
+export class InvestorsComponent implements OnInit {
 
   @ViewChild('investorDropdown') investorDropdown: ElementRef;
 
@@ -19,26 +19,26 @@ export class InvestmentsComponent implements OnInit {
     private router: Router
   ) { }
 
-  public investments: any;
-  public investors: { [slug: string]: string; } = {};
+  public investors: any;
+  public investorNames: { [slug: string]: string; } = {};
 
   ngOnInit() {
-    jQuery(".nav-item.investments").addClass("active");
+    jQuery(".nav-item.investors").addClass("active");
     this.initInvestorsArray();
   }
 
   initInvestorsArray(){
-    this.investors["accel_partners"] = "Accel Partners";
-    this.investors["andreessen_horowitz"] = "Andreessen Horowitz";
+    this.investorNames["accel_partners"] = "Accel Partners";
+    this.investorNames["andreessen_horowitz"] = "Andreessen Horowitz";
   }
 
   ngAfterViewInit() {
     this.route.params.subscribe(params => {
-      this.loadInvestmentsTable(params["investor"]);
+      this.loadinvestorsTable(params["investor"]);
     });
   }
 
-  loadInvestmentsTable(investorSlug: any) {
+  loadinvestorsTable(investorSlug: any) {
     if (!investorSlug) {
       this.dropDownItemOnClick("accel_partners");
     }
@@ -46,18 +46,18 @@ export class InvestmentsComponent implements OnInit {
     this.initInvestorsDropDown(investorSlug);
     
     if (investorSlug) {
-      this.jsonService.getInvestments(investorSlug).then(results => {
+      this.jsonService.getInvestors(investorSlug).then(results => {
         this.display(results.investments);
       });
     }
   }
 
   dropDownItemOnClick(investorSlug) {
-    this.router.navigate([`/investments/${investorSlug}`]);
+    this.router.navigate([`/investors/${investorSlug}`]);
   }
 
   initInvestorsDropDown(investorSlug) {
-    jQuery(this.investorDropdown.nativeElement).find(".dropdown-toggle").html(this.investors[investorSlug]);
+    jQuery(this.investorDropdown.nativeElement).find(".dropdown-toggle").html(this.investorNames[investorSlug]);
     jQuery(this.investorDropdown.nativeElement).find(".dropdown-item.active").toggleClass("active");
     this.toggleActive(investorSlug);
   }
@@ -66,10 +66,10 @@ export class InvestmentsComponent implements OnInit {
     jQuery(`#${investorSlug}`).toggleClass("active");
   }
 
-  display(investments: any) {
-    this.investments = investments.sort(this.compare)
+  display(investors: any) {
+    this.investors = investors.sort(this.compare)
     //.filter(item => new Date(item.date).getFullYear() > 2016);
-    //console.log(investments);
+    //console.log(investors);
   }
 
   compare(a, b) {
@@ -80,6 +80,6 @@ export class InvestmentsComponent implements OnInit {
   }
 
   ngOnDestroy() {
-    jQuery(".nav-item.investments").removeClass("active");
+    jQuery(".nav-item.investors").removeClass("active");
   }
 }

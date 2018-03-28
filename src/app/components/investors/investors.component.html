@@ -11,7 +11,7 @@
   </div>
   <pre></pre>
   <hr>
-  <table class="investments">
+  <table class="investors">
     <tr>
       <th>#</th>
       <th>Company</th>
@@ -19,7 +19,7 @@
       <th>Amount</th>
       <th>Round</th>
     </tr>
-    <tr *ngFor="let investment of investments; let i = index">
+    <tr *ngFor="let investment of investors; let i = index">
       <td>{{i + 1}}</td>
       <td>{{investment.company}}</td>
       <td>{{investment.date}}</td>

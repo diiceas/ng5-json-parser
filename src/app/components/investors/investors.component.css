@@ -1,20 +1,20 @@
-.investments {
+.investors {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   border-collapse: collapse;
   width: 100%;
 }
 
-.investments td,
-.investments th {
+.investors td,
+.investors th {
   border: 1px solid #ddd;
   padding: 8px;
 }
 
-.investments tr:nth-child(even) {
+.investors tr:nth-child(even) {
   background-color: #f2f2f2;
 }
 
-.investments th {
+.investors th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;

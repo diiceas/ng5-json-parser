@@ -7,7 +7,7 @@ export class JsonService {
 
   constructor(private _http: Http) { }
 
-  getInvestments(slug) {
+  getInvestors(slug) {
     return this._http.get(`/assets/${slug}.json`)
       .toPromise()
       .then(results => results.json())

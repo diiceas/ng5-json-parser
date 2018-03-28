@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { InvestmentsComponent } from './components/investments/investments.component';
+import { InvestorsComponent } from './components/investors/investors.component';
 
 import { JsonService } from './services/json.service';
 import { HttpModule } from '@angular/http';
@@ -13,11 +13,11 @@ import { CategoriesComponent } from './components/categories/categories.componen
 let routes: Routes = [
   {
     path: '',
-    component: InvestmentsComponent,
+    component: InvestorsComponent,
   },
   {
-    path: 'investments/:investor',
-    component: InvestmentsComponent,
+    path: 'investors/:investor',
+    component: InvestorsComponent,
   },
   {
     path: 'categories',
@@ -28,7 +28,7 @@ let routes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    InvestmentsComponent,
+    InvestorsComponent,
     CategoriesComponent
   ],
   imports: [
