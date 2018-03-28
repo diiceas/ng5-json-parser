@@ -16,6 +16,10 @@ let routes: Routes = [
     component: InvestmentsComponent,
   },
   {
+    path: 'investments/:investor',
+    component: InvestmentsComponent,
+  },
+  {
     path: 'categories',
     component: CategoriesComponent,
   }

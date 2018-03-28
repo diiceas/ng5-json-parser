@@ -44,4 +44,4 @@ testem.log
 Thumbs.db
 
 
-*assets/*.*
+**/assets/*.json

@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 import { JsonService } from './../../services/json.service';
 
 declare var jQuery: any;
@@ -10,19 +11,62 @@ declare var jQuery: any;
 })
 export class InvestmentsComponent implements OnInit {
 
-  constructor(private jsonService: JsonService) { }
+  @ViewChild('investorDropdown') investorDropdown: ElementRef;
+
+  constructor(
+    private jsonService: JsonService,
+    private route: ActivatedRoute,
+    private router: Router
+  ) { }
 
   public investments: any;
+  public investors: { [slug: string]: string; } = {};
 
   ngOnInit() {
     jQuery(".nav-item.investments").addClass("active");
-    
-    this.jsonService.getInvestments("accel_partners").then(results => {
-      this.display(results.investments);
+    this.initInvestorsArray();
+  }
+
+  initInvestorsArray(){
+    this.investors["accel_partners"] = "Accel Partners";
+    this.investors["andreessen_horowitz"] = "Andreessen Horowitz";
+  }
+
+  ngAfterViewInit() {
+    this.route.params.subscribe(params => {
+      this.loadInvestmentsTable(params["investor"]);
     });
   }
-  
-  display(investments: any){
+
+  loadInvestmentsTable(investorSlug: any) {
+    if (!investorSlug) {
+      this.dropDownItemOnClick("accel_partners");
+    }
+
+    this.initInvestorsDropDown(investorSlug);
+    
+    if (investorSlug) {
+      this.jsonService.getInvestments(investorSlug).then(results => {
+        this.display(results.investments);
+      });
+    }
+  }
+
+  dropDownItemOnClick(investorSlug) {
+    this.router.navigate([`/investments/${investorSlug}`]);
+  }
+
+  initInvestorsDropDown(investorSlug) {
+    jQuery(this.investorDropdown.nativeElement).find(".dropdown-toggle").html(this.investors[investorSlug]);
+    jQuery(this.investorDropdown.nativeElement).find(".dropdown-item.active").toggleClass("active");
+    this.toggleActive(investorSlug);
+  }
+
+  toggleActive(investorSlug) {
+    jQuery(`#${investorSlug}`).toggleClass("active");
+  }
+
+  display(investments: any) {
     this.investments = investments.sort(this.compare)
     //.filter(item => new Date(item.date).getFullYear() > 2016);
     //console.log(investments);

@@ -1,32 +1,34 @@
 .investments {
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    border-collapse: collapse;
-    width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  border-collapse: collapse;
+  width: 100%;
 }
 
-.investments td, .investments th {
-    border: 1px solid #ddd;
-    padding: 8px;
+.investments td,
+.investments th {
+  border: 1px solid #ddd;
+  padding: 8px;
 }
 
-.investments tr:nth-child(even){
-    background-color: #f2f2f2;
+.investments tr:nth-child(even) {
+  background-color: #f2f2f2;
 }
 
 .investments th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: #5B6CA6;
-    color: white;
-    font-weight: normal;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #5B6CA6;
+  color: white;
+  font-weight: normal;
 }
 
-.dropdown-menu li{
-    padding: 3px;
+.dropdown-item {
+  cursor: pointer;
 }
 
-.dropdown-item.active, .dropdown-item:active{
-    background-color: #DDDDDD;
-    color: black;
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: #DDDDDD;
+  color: black;
 }
