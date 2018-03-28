@@ -21,3 +21,12 @@
     color: white;
     font-weight: normal;
 }
+
+.dropdown-menu li{
+    padding: 3px;
+}
+
+.dropdown-item.active, .dropdown-item:active{
+    background-color: #DDDDDD;
+    color: black;
+}

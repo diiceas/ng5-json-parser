@@ -1,5 +1,5 @@
-import { JsonService } from './../../services/json.service';
 import { Component, OnInit } from '@angular/core';
+import { JsonService } from './../../services/json.service';
 
 declare var jQuery: any;
 
@@ -12,17 +12,14 @@ export class InvestmentsComponent implements OnInit {
 
   constructor(private jsonService: JsonService) { }
 
-  private investments: any;
+  public investments: any;
 
   ngOnInit() {
     jQuery(".nav-item.investments").addClass("active");
+    
     this.jsonService.getInvestments("accel_partners").then(results => {
       this.display(results.investments);
     });
-  }
-
-  ngOnDestroy() {
-    jQuery(".nav-item.investments").removeClass("active");
   }
   
   display(investments: any){
@@ -35,7 +32,10 @@ export class InvestmentsComponent implements OnInit {
     if (a.date < b.date) {
       return 1;
     }
-    // a must be equal to b
     return -1;
+  }
+
+  ngOnDestroy() {
+    jQuery(".nav-item.investments").removeClass("active");
   }
 }

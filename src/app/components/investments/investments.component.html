@@ -1,16 +1,32 @@
-<table class="investments">
-  <tr>
-    <th>#</th>
-    <th>Company</th>
-    <th>Date</th>
-    <th>Amount</th>
-    <th>Round</th>
-  </tr>
-  <tr *ngFor="let investment of investments; let i = index">
-    <td>{{i + 1}}</td>
-    <td>{{investment.company}}</td>
-    <td>{{investment.date}}</td>
-    <td>{{investment.amount}}</td>
-    <td>{{investment.round}}</td>
-  </tr>
-</table>
+<div class="container">
+  <div class="dropdown">
+    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+      aria-expanded="false">
+      Investor
+    </button>
+    <div class="dropdown-menu" #dropdown aria-labelledby="dropdownMenuButton">
+      <a class="dropdown-item active" href="#">Accel Partners</a>
+      <a class="dropdown-item" href="#">Andreessen Horowitz</a>
+      <!-- <a class="dropdown-item" href="#">Something else here</a> -->
+    </div>
+  </div>
+  <pre></pre>
+  <!-- <h2 class="text-center">Accel Partners</h2> -->
+  <hr>
+  <table class="investments">
+    <tr>
+      <th>#</th>
+      <th>Company</th>
+      <th>Date</th>
+      <th>Amount</th>
+      <th>Round</th>
+    </tr>
+    <tr *ngFor="let investment of investments; let i = index">
+      <td>{{i + 1}}</td>
+      <td>{{investment.company}}</td>
+      <td>{{investment.date}}</td>
+      <td>{{investment.amount}}</td>
+      <td>{{investment.round}}</td>
+    </tr>
+  </table>
+</div>

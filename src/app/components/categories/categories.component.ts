@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { JsonService } from './../../services/json.service';
 
 declare var jQuery: any;
 
@@ -8,11 +9,20 @@ declare var jQuery: any;
   styleUrls: ['./categories.component.css']
 })
 export class CategoriesComponent implements OnInit {
+  
+  public categories: any;
 
-  constructor() { }
+  constructor(private jsonService: JsonService) { }
 
   ngOnInit() {
     jQuery(".nav-item.categories").addClass("active");
+    this.jsonService.getCategories().then(results => {
+      this.display(results.sectors);
+    });
+  }
+
+  display(categories: any){
+    this.categories = categories;
   }
 
   ngOnDestroy() {
