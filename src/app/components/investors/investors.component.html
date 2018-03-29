@@ -1,12 +1,12 @@
 <div class="container">
   <div class="dropdown" #investorDropdown>
-    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-      aria-expanded="false">
+    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
       Investor
     </button>
     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-      <a class="dropdown-item" #item1 (click)="dropDownItemOnClick(item1.id)" id="accel_partners">Accel Partners</a>
-      <a class="dropdown-item" #item2 (click)="dropDownItemOnClick(item2.id)" id="andreessen_horowitz">Andreessen Horowitz</a>
+      <a *ngFor="let investor of investorNames" class="dropdown-item" (click)="dropDownItemOnClick(investor.slug)">
+        {{ getInvestorName(investor.slug) }}
+      </a>
     </div>
   </div>
   <pre></pre>

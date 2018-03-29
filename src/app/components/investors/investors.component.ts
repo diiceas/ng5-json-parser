@@ -20,16 +20,30 @@ export class InvestorsComponent implements OnInit {
   ) { }
 
   public investors: any;
-  public investorNames: { [slug: string]: string; } = {};
+  public investorNames = [
+    { slug: "accel_partners", name: "Accel Partners" },
+    { slug: "andreessen_horowitz", name: "Andreessen Horowitz" },
+    { slug: "first_round_capital", name: "First Round Capital" },
+    { slug: "formation_8", name: "Formation 8" },
+    { slug: "founders_fund", name: "Founders Fund" },
+    { slug: "google_ventures", name: "Google Ventures" },
+    { slug: "greylock", name: "Greylock" },
+    { slug: "khosla_ventures", name: "Khosla Ventures" },
+    { slug: "kleiner_perkins_caufield_byers", name: "Kleiner Perkins Caufield & Byers" },
+    { slug: "new_enterprise_associates", name: "New Enterprise Associates" },
+    { slug: "redpoint_ventures", name: "Redpoint Ventures" },
+    { slug: "sequoia_capital", name: "Sequoia Capital" },
+    { slug: "sv_angel", name: "SV Angel" },
+    { slug: "triangle_peak_partners", name: "Triangle Peak Partners" },
+    { slug: "venrock_associates", name: "Venrock Associates" }
+  ];
+
+  public getInvestorName(slug) {
+    return this.investorNames.find(investor => investor.slug == slug).name;
+  }
 
   ngOnInit() {
     jQuery(".nav-item.investors").addClass("active");
-    this.initInvestorsArray();
-  }
-
-  initInvestorsArray(){
-    this.investorNames["accel_partners"] = "Accel Partners";
-    this.investorNames["andreessen_horowitz"] = "Andreessen Horowitz";
   }
 
   ngAfterViewInit() {
@@ -44,7 +58,7 @@ export class InvestorsComponent implements OnInit {
     }
 
     this.initInvestorsDropDown(investorSlug);
-    
+
     if (investorSlug) {
       this.jsonService.getInvestors(investorSlug).then(results => {
         this.display(results.investments);
@@ -57,7 +71,7 @@ export class InvestorsComponent implements OnInit {
   }
 
   initInvestorsDropDown(investorSlug) {
-    jQuery(this.investorDropdown.nativeElement).find(".dropdown-toggle").html(this.investorNames[investorSlug]);
+    jQuery(this.investorDropdown.nativeElement).find(".dropdown-toggle").html(this.getInvestorName(investorSlug));
     jQuery(this.investorDropdown.nativeElement).find(".dropdown-item.active").toggleClass("active");
     this.toggleActive(investorSlug);
   }

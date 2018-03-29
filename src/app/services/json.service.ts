@@ -8,7 +8,7 @@ export class JsonService {
   constructor(private _http: Http) { }
 
   getInvestors(slug) {
-    return this._http.get(`/assets/${slug}.json`)
+    return this._http.get(`/assets/investors/${slug}.json`)
       .toPromise()
       .then(results => results.json())
       .catch(this.handleError);
