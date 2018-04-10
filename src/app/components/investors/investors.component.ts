@@ -27,7 +27,7 @@ export class InvestorsComponent implements OnInit {
     { slug: "formation_8", name: "Formation 8" },
     { slug: "founders_fund", name: "Founders Fund" },
     { slug: "google_ventures", name: "Google Ventures" },
-    { slug: "greylock", name: "Greylock" },
+    { slug: "greylock_partners", name: "Greylock Partners" },
     { slug: "khosla_ventures", name: "Khosla Ventures" },
     { slug: "kleiner_perkins_caufield_byers", name: "Kleiner Perkins Caufield & Byers" },
     { slug: "new_enterprise_associates", name: "New Enterprise Associates" },

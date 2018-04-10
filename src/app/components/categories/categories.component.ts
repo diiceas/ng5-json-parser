@@ -28,5 +28,4 @@ export class CategoriesComponent implements OnInit {
   ngOnDestroy() {
     jQuery(".nav-item.categories").removeClass("active");
   }
-
 }

@@ -9,6 +9,7 @@ import { HttpModule } from '@angular/http';
 
 import { RouterModule, Routes } from '@angular/router';
 import { CategoriesComponent } from './components/categories/categories.component';
+import { Fti2018Component } from './components/fti-2018/fti-2018.component';
 
 let routes: Routes = [
   {
@@ -22,6 +23,10 @@ let routes: Routes = [
   {
     path: 'categories',
     component: CategoriesComponent,
+  },
+  {
+    path: 'fti',
+    component: Fti2018Component,
   }
 ];
 
@@ -29,7 +34,8 @@ let routes: Routes = [
   declarations: [
     AppComponent,
     InvestorsComponent,
-    CategoriesComponent
+    CategoriesComponent,
+    Fti2018Component
   ],
   imports: [
     BrowserModule,
