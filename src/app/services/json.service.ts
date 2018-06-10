@@ -20,6 +20,13 @@ export class JsonService {
       .then(results => results.json())
       .catch(this.handleError);
   }
+ 
+  getMarketMaps(){
+    return this._http.get(`/assets/marketMaps.json`)
+      .toPromise()
+      .then(results => results.json())
+      .catch(this.handleError);
+  }
 
   private handleError(error: any): Promise<any> {
     console.error('An error occured', error) //replace with something more solid later
